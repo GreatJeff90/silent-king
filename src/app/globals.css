@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #1B3B2B;
+  --color-brand-cream: #F9F7F2;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-cream text-brand-green selection:bg-brand-green selection:text-brand-cream;
+  }
+}
